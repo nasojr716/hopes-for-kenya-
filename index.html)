@@ -1,0 +1,106 @@
+index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hope for Kids Kenya</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #007b5e;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    .donate-button {
+      display: inline-block;
+      background: #ff6b00;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .donate-button:hover {
+      background: #ff8800;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .image-grid img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hope for Kids Kenya</h1>
+  <p>Bringing hope to children and families across Kenya.</p>
+</header>
+
+<section>
+  <h2>Our Story</h2>
+  <p>
+    In 2020, a small group of volunteers in Nairobi saw a need — children living without access to food, shelter, or education.
+    We began helping just one family. Today, with your help, we've changed the lives of **over 1,000 children** in Kenya.
+  </p>
+  <p>
+    With the donations received, we've built classrooms, provided clean water, distributed food packs, and supported mothers in setting up small businesses.
+    Each shilling donated brought new hope.  
+  </p>
+  <p>
+    One unforgettable moment: In 2022, a newborn named Amani was saved from severe malnutrition after a community alert — your support funded her nutrition, housing, and education. Today, she is a joyful, healthy 3-year-old.
+  </p>
+
+  <a href="tel:+254728275422" class="donate-button">Donate via M-Pesa: 0728275422</a>
+</section>
+
+<section>
+  <h2>Our Impact in Pictures</h2>
+  <div class="image-grid">
+    <img src="https://images.unsplash.com/photo-1603261522510-5ad2b6a80e4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wz&ixlib=rb-4.0.3&q=80&w=800" alt="Helping children">
+    <img src="https://images.unsplash.com/photo-1609931453510-4dcd2f6c8c77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wz&ixlib=rb-4.0.3&q=80&w=800" alt="Kids in school">
+    <img src="https://images.unsplash.com/photo-1559770914-031b548f1caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wz&ixlib=rb-4.0.3&q=80&w=800" alt="Feeding program">
+  </div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p><strong>Email:</strong> nasojr20@gmail.com</p>
+  <p><strong>Phone:</strong> 0728275422</p>
+</section>
+
+<footer>
+  <p>© 2025 Hope for Kids Kenya. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
